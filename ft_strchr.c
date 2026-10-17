@@ -6,7 +6,7 @@
 /*   By: momellou <momellou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/12 16:49:48 by momellou          #+#    #+#             */
-/*   Updated: 2026/10/15 14:46:48 by momellou         ###   ########.fr       */
+/*   Updated: 2026/10/16 13:17:46 by momellou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,16 +15,13 @@
 
 char	*ft_strchr(const char *s, int c)
 {
-	char x;
-
-	x = (char)c;
 	while (*s)
 	{
-		if (*s == x)
+		if (*s == c)
 			return ((char *)s);
 		s++;
 	}
-	if (*s == x)
+	if (*s == c)
 		return ((char *)s);
 	return (NULL);
 }
