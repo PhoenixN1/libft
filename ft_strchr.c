@@ -6,12 +6,11 @@
 /*   By: momellou <momellou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/12 16:49:48 by momellou          #+#    #+#             */
-/*   Updated: 2026/10/16 13:17:46 by momellou         ###   ########.fr       */
+/*   Updated: 2026/10/18 18:16:10 by momellou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
 
 char	*ft_strchr(const char *s, int c)
 {

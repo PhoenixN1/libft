@@ -6,7 +6,22 @@
 /*   By: momellou <momellou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/17 12:00:25 by momellou          #+#    #+#             */
-/*   Updated: 2026/10/17 12:00:28 by momellou         ###   ########.fr       */
+/*   Updated: 2026/10/19 14:48:21 by momellou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
+void	ft_striteri(char *s, void (*f)(unsigned int, char*))
+{
+	int	i;
+
+	if (!s || !f)
+		return ;
+	i = 0;
+	while (s[i])
+	{
+		f(i, &s[i]);
+		i++;
+	}
+}

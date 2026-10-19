@@ -6,13 +6,13 @@
 /*   By: momellou <momellou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/15 11:31:14 by momellou          #+#    #+#             */
-/*   Updated: 2026/10/17 11:53:28 by momellou         ###   ########.fr       */
+/*   Updated: 2026/10/18 18:20:09 by momellou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putchar_fd(char c, int fd) // fd : File Descriptor 0 : 
+void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);
 }
