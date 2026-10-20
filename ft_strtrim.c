@@ -6,7 +6,7 @@
 /*   By: momellou <momellou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/14 20:19:05 by momellou          #+#    #+#             */
-/*   Updated: 2026/10/19 15:57:20 by momellou         ###   ########.fr       */
+/*   Updated: 2026/10/20 10:56:10 by momellou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,9 +47,8 @@ char	*ft_strtrim(char const *s1, char const *set)
 	str[i] = '\0';
 	return (str);
 }
-
 // int main()
 // {
-// 	printf("%s",ft_strtrim("xxx1337xx", "x"));
+// 	printf("%s",ft_strtrim("xxx1337xtestxxx", "x"));
 // 	return 0;
 // }

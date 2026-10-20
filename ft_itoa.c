@@ -6,7 +6,7 @@
 /*   By: momellou <momellou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/17 11:54:55 by momellou          #+#    #+#             */
-/*   Updated: 2026/10/18 18:19:44 by momellou         ###   ########.fr       */
+/*   Updated: 2026/10/20 10:41:10 by momellou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ static int	ft_numlen(long n)
 		len++;
 	while (n != 0)
 	{
-		n /= 10;
+		n = n / 10;
 		len++;
 	}
 	return (len);
@@ -45,8 +45,9 @@ char	*ft_itoa(int n)
 		str[0] = '0';
 	while (num > 0)
 	{
-		str[--len] = (num % 10) + '0';
-		num /= 10;
+		len--;
+		str[len] = (num % 10) + '0';
+		num = num / 10;
 	}
 	if (n < 0)
 		str[0] = '-';

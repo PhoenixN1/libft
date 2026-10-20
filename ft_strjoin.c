@@ -6,7 +6,7 @@
 /*   By: momellou <momellou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/14 20:07:34 by momellou          #+#    #+#             */
-/*   Updated: 2026/10/17 11:55:40 by momellou         ###   ########.fr       */
+/*   Updated: 2026/10/20 10:31:02 by momellou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,3 +39,10 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	str[i] = '\0';
 	return (str);
 }
+// int main()
+// {
+// 	char	*s1 = "hello";
+// 	char	*s2 = " test";
+// 	printf("%s",ft_strjoin(s1,s2));
+// 	return 0;
+// }

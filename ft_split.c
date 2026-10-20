@@ -6,7 +6,7 @@
 /*   By: momellou <momellou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/14 21:26:09 by momellou          #+#    #+#             */
-/*   Updated: 2026/10/18 18:08:00 by momellou         ###   ########.fr       */
+/*   Updated: 2026/10/20 10:36:36 by momellou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,8 +57,7 @@ static char	*ft_putword(char *word, char const *s, int i, int word_len)
 	return (word);
 }
 
-static char	**ft_split_words(char const *s, char c,
-		char **s2, int num_words)
+static char	**ft_split_words(char const *s, char c, char **s2, int num_words)
 {
 	int	i;
 	int	word;

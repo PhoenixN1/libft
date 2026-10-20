@@ -6,7 +6,7 @@
 /*   By: momellou <momellou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/17 12:00:25 by momellou          #+#    #+#             */
-/*   Updated: 2026/10/19 14:48:21 by momellou         ###   ########.fr       */
+/*   Updated: 2026/10/20 10:50:22 by momellou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,3 +25,18 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		i++;
 	}
 }
+// void	ft_test(unsigned int i, char *c)
+// {
+// 	if (i % 2 == 0 && *c >= 'a' && *c <= 'z')
+// 		*c = *c - 32;
+// }
+
+// int	main(void)
+// {
+// 	char	str[] = "bonjour";
+
+// 	printf("Avant : %s\n", str);
+// 	ft_striteri(str, ft_test);
+// 	printf("Apres : %s\n", str);
+// 	return (0);
+// }

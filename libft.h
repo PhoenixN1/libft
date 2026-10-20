@@ -6,7 +6,7 @@
 /*   By: momellou <momellou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/12 21:26:57 by momellou          #+#    #+#             */
-/*   Updated: 2026/10/17 11:50:13 by momellou         ###   ########.fr       */
+/*   Updated: 2026/10/20 11:03:36 by momellou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 # include <unistd.h>
 # include <stdio.h>
 
-/* Part 1 */
+
 
 int		ft_isalpha(int c);
 int		ft_isdigit(int c);
@@ -44,7 +44,7 @@ int		ft_atoi(const char *nptr);
 void	*ft_calloc(size_t nmemb, size_t size);
 char	*ft_strdup(const char *s);
 
-/* Part 2 */
+
 
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 char	*ft_strjoin(char const *s1, char const *s2);

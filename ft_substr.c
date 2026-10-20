@@ -6,7 +6,7 @@
 /*   By: momellou <momellou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/14 19:41:33 by momellou          #+#    #+#             */
-/*   Updated: 2026/10/17 11:56:46 by momellou         ###   ########.fr       */
+/*   Updated: 2026/10/20 10:27:20 by momellou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,3 +35,9 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	str[i] = '\0';
 	return (str);
 }
+// int main()
+// {
+// 	char	*s = "hello wordl";
+// 	printf("%s",ft_substr(s,4,5));
+// 	return 0;
+// }
