@@ -1,9 +1,6 @@
 # Libft — My C Library
 
-![Language](https://img.shields.io/badge/Language-C-blue.svg)
-![Standard](https://img.shields.io/badge/Standard-C99-orange.svg)
-![School](https://img.shields.io/badge/School-42%20%2F%201337-black.svg)
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow.svg)
+
 
 ## Présentation
 
@@ -129,7 +126,7 @@ int main(void)
 Compile le programme avec :
 
 ```bash
-cc -Wall -Wextra -Werror main.c -L. -lft -o program
+cc -Wall -Wextra -Werror main.c libft.a -o program
 ```
 
 Exécute-le :
