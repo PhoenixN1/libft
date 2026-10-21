@@ -6,7 +6,7 @@
 #    By: momellou <momellou@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/10/18 01:30:21 by momellou          #+#    #+#              #
-#    Updated: 2026/10/18 18:22:51 by momellou         ###   ########.fr        #
+#    Updated: 2026/10/20 15:36:42 by momellou         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,7 +20,9 @@ SRCS =	ft_atoi.c ft_bzero.c ft_calloc.c ft_isalnum.c \
 		ft_strdup.c ft_striteri.c ft_strjoin.c ft_strlcat.c \
 		ft_strlcpy.c ft_strlen.c ft_strmapi.c ft_strncmp.c \
 		ft_strnstr.c ft_strrchr.c ft_strtrim.c ft_substr.c \
-		ft_tolower.c ft_toupper.c
+		ft_tolower.c ft_toupper.c ft_lstnew.c ft_lstadd_front.c \
+		ft_lstsize.c ft_lstlast.c ft_lstadd_back.c ft_lstdelone.c \
+		ft_lstclear.c ft_lstiter.c ft_lstmap.c
 CC = cc
 OBJ = $(SRCS:.c=.o)
 CFLAGS = -Wall -Wextra -Werror

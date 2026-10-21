@@ -6,7 +6,7 @@
 /*   By: momellou <momellou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/20 12:06:12 by momellou          #+#    #+#             */
-/*   Updated: 2026/10/20 13:21:21 by momellou         ###   ########.fr       */
+/*   Updated: 2026/10/20 15:35:55 by momellou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,6 @@ t_list	*ft_lstnew(void *content)
 	str->next = NULL;
 	return (str);
 }
-
 // int	main(void)
 // {
 // 	int		value;
