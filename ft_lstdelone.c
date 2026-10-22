@@ -6,7 +6,7 @@
 /*   By: momellou <momellou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/20 12:05:59 by momellou          #+#    #+#             */
-/*   Updated: 2026/10/21 19:29:59 by momellou         ###   ########.fr       */
+/*   Updated: 2026/10/22 21:04:16 by momellou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 void	ft_lstdelone(t_list *lst, void (*del)(void *))
 {
-	if (!lst)
+	if (!lst || !del)
 		return ;
-	(*del)(lst->content);
+	del(lst->content);
 	free(lst);
 }

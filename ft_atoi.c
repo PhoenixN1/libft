@@ -6,7 +6,7 @@
 /*   By: momellou <momellou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/12 15:40:26 by momellou          #+#    #+#             */
-/*   Updated: 2026/10/18 18:08:50 by momellou         ###   ########.fr       */
+/*   Updated: 2026/10/22 14:44:42 by momellou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,3 +36,9 @@ int	ft_atoi(const char *nptr)
 	}
 	return (result * sign);
 }
+// int main()
+// {
+// 	char test[20] = "4344";
+// 	printf("%d",ft_atoi(test));
+// 	return 0;
+// }

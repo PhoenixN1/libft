@@ -6,7 +6,7 @@
 /*   By: momellou <momellou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/20 12:05:50 by momellou          #+#    #+#             */
-/*   Updated: 2026/10/21 19:30:03 by momellou         ###   ########.fr       */
+/*   Updated: 2026/10/22 15:22:45 by momellou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 	start = *lst;
 	if (*lst)
 	{
-		while (start->next)
+		while (start->next != NULL)
 			start = start->next;
 		start->next = new;
 	}
