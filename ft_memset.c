@@ -6,7 +6,7 @@
 /*   By: momellou <momellou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/12 16:30:17 by momellou          #+#    #+#             */
-/*   Updated: 2026/10/22 15:37:34 by momellou         ###   ########.fr       */
+/*   Updated: 2026/10/24 13:11:20 by momellou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,11 +26,14 @@ void	*ft_memset(void *s, int c, size_t n)
 	}
 	return (s);
 }
-// int main()
+// int	main(void)
 // {
-// 	char str[] = "hello world";
-// 	printf("%s\n\n",str);
-// 	ft_memset(str,'q',4);
-// 	printf("%s",str);
-// 	return 0;
+// 	int				str;
+// 	unsigned char	*ptr;
+
+// 	ptr = (unsigned char *)&str;
+// 	ft_memset(ptr, 57, 1);
+// 	ft_memset(ptr + 1, 5, 1);
+// 	printf("%d\n", str);
+// 	return (0);
 // }
