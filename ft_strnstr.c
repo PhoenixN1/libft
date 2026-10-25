@@ -23,8 +23,8 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	while (big[i] && i < len)
 	{
 		j = 0;
-		while (big[i + j] && little[j]
-			&& big[i + j] == little[j] && i + j < len)
+		while (i + j < len && big[i + j]
+			&& little[j] && big[i + j] == little[j])
 			j++;
 		if (little[j] == '\0')
 			return ((char *)&big[i]);
@@ -32,7 +32,6 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (NULL);
 }
-
 // int main(void)
 // {
 //     const char *big = "Hello 1337 World";

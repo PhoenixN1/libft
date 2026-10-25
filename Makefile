@@ -44,4 +44,4 @@ fclean:
 	$(RM) $(OBJ) $(NAME)
 re : fclean all
 	
-.PHONY: all clean fclean
+.PHONY: all clean fclean re

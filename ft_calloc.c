@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdint.h>
 
 void	*ft_calloc(size_t nmemb, size_t size)
 {
@@ -22,6 +23,8 @@ void	*ft_calloc(size_t nmemb, size_t size)
 		nmemb = 1;
 		size = 1;
 	}
+	if (size != 0 && nmemb > SIZE_MAX / size)
+		return (NULL);
 	total_size = nmemb * size;
 	ptr = malloc(total_size);
 	if (!ptr)
