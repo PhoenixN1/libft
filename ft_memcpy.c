@@ -6,7 +6,7 @@
 /*   By: momellou <momellou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/12 16:49:16 by momellou          #+#    #+#             */
-/*   Updated: 2026/10/20 10:54:15 by momellou         ###   ########.fr       */
+/*   Updated: 2026/10/26 00:59:58 by momellou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	const unsigned char	*src2;
 	size_t				i;
 
-	if (dest == 0 || src == 0)
+	if (dest == 0 && src == 0)
 		return (NULL);
 	dest2 = (unsigned char *)dest;
 	src2 = (const unsigned char *)src;
