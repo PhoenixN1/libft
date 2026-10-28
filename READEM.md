@@ -31,7 +31,7 @@ The source files must compile with the following flags:
 Clone the repository and navigate to the project directory:
 
 ```bash
-git clone <repository-url>
+git clone <git@vogsphere.1337.ma:vogsphere/intra-uuid-a668f5f3-1562-4b2e-99ef-e6a2677af348-7772951-momellou>
 cd libftme
 ```
 
@@ -64,16 +64,16 @@ Include the header file in your C source file:
 Compile your program with the library:
 
 ```bash
-cc -Wall -Wextra -Werror main.c -L. -lft -o program
+cc -Wall -Wextra -Werror main.c ./libft.a
 ```
 
 Run the program:
 
 ```bash
-./program
+./a.out
 ```
 
-The `-L.` option specifies the current directory as a library search path, while `-lft` links against `libft.a`.
+The `libft.a` argument specifies the static library file to link directly with `main.c`. The -o programme option names the generated executable programme.
 
 ### Testing
 
@@ -95,7 +95,7 @@ int main(void)
 Compile and run the test:
 
 ```bash
-cc -Wall -Wextra -Werror main.c -L. -lft -o test
+cc -Wall -Wextra -Werror main.c ./libft.a -o test
 ./test
 ```
 
@@ -221,10 +221,9 @@ The following resources can help with understanding and implementing the project
 
 - **42 Libft subject:** Official project requirements and function specifications.
 - **C library manual pages:** `man strlen`, `man memset`, `man memcpy`, `man memmove`, `man calloc`, and other relevant manual pages.
-- **GNU C Library documentation:** Reference material for standard C library behavior.
-- **GNU Make manual:** Documentation about Makefiles, targets, prerequisites, and recipes.
-- **C language documentation:** Reference material for pointers, structures, memory allocation, function pointers, and linked lists.
-- **Compiler documentation:** Information about compiler flags, compilation, object files, and static libraries.
+- **AI:** `chatgpt`.
+- **GitHub:** `GitHub repository for the old promo`.
+
 
 ### AI Usage
 
