@@ -6,7 +6,7 @@
 #    By: momellou <momellou@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/10/18 01:30:21 by momellou          #+#    #+#              #
-#    Updated: 2026/10/20 15:36:42 by momellou         ###   ########.fr        #
+#    Updated: 2026/10/29 00:42:06 by momellou         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -43,5 +43,5 @@ clean:
 fclean:
 	$(RM) $(OBJ) $(NAME)
 re : fclean all
-	
+
 .PHONY: all clean fclean re

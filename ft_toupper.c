@@ -6,11 +6,12 @@
 /*   By: momellou <momellou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/12 16:50:50 by momellou          #+#    #+#             */
-/*   Updated: 2026/10/13 19:34:00 by momellou         ###   ########.fr       */
+/*   Updated: 2026/10/29 00:49:56 by momellou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdio.h>
 
 int	ft_toupper(int c)
 {
@@ -20,6 +21,14 @@ int	ft_toupper(int c)
 }
 // int main()
 // {
-// 	printf("%d",ft_toupper('O'));
+// 	int i;
+// 	char c;
+// 	c = 'a';
+// 	i = 0;
+// 	while(i < 26)
+// 	{
+// 		printf("%c \n",ft_toupper(c + i));
+// 		i++;
+// 	}
 // 	return 0;
 // }

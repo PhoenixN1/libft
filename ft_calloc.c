@@ -15,21 +15,22 @@
 
 void	*ft_calloc(size_t nmemb, size_t size)
 {
-	void	*arr;
-	size_t	max;
+	void	*ptr;
+	size_t	total_size;
 
 	if (nmemb == 0 || size == 0)
-		return (malloc(1));
-	max = size * nmemb;
-	if ((max / nmemb) != size)
 	{
-		return (NULL);
+		nmemb = 1;
+		size = 1;
 	}
-	arr = (void *)malloc(size * nmemb);
-	if (!arr)
+	if (size != 0 && nmemb > SIZE_MAX / size)
 		return (NULL);
-	ft_bzero(arr, size * nmemb);
-	return ((void *)arr);
+	total_size = nmemb * size;
+	ptr = malloc(total_size);
+	if (!ptr)
+		return (NULL);
+	ft_bzero(ptr, total_size);
+	return (ptr);
 }
 // int main(void)
 // {
