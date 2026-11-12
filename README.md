@@ -31,7 +31,7 @@ The source files must compile with the following flags:
 Clone the repository and navigate to the project directory:
 
 ```bash
-git clone <git@vogsphere.1337.ma:vogsphere/intra-uuid-a668f5f3-1562-4b2e-99ef-e6a2677af348-7772951-momellou> libft
+git clone <git> libft
 cd libft
 ```
 
